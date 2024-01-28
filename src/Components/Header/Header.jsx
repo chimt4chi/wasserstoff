@@ -8,8 +8,10 @@ function Header() {
     <nav className="flex flex-wrap justify-around text-gray-500 items-center bg-[#191932] p-4 rounded-t-lg w-full">
       <div className="flex items-center">
         <div className="flex gap-2 items-center">
-          <img src="" alt="logo" className="hidden sm:block" />
-          <span className="text-lg sm:text-xl font-semibold">ORION</span>
+          <img src="" alt="logo" className="hidden sm:block cursor-pointer" />
+          <span className="text-lg sm:text-xl font-semibold cursor-pointer">
+            ORION
+          </span>
         </div>
       </div>
       <div className="flex flex-col sm:flex-row gap-4 items-center mt-4 sm:mt-0">
