@@ -1,8 +1,25 @@
-# React + Vite
+# Project Name
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Wasserstoff Frontend Assignment
 
-Currently, two official plugins are available:
+## Table of Content
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-[Installation](#installation)
+
+- [Usage](#usage)
+
+## Installation
+
+1. Clone the repository and navigate to its directory:
+
+2. tyle 'npm install' on the terminal, Thats it.
+
+## Usage
+
+1. After the successful installation type 'npm run dev'. The project is up and running on http:localhost:5173
+
+2. Open any browser to view the project locally.
+
+# Note
+
+This is not fully responsive build as it was not mentioned in the notes. though on the computer it works fine.

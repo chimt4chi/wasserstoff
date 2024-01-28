@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #05050f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.leaflet-container {
+  height: 100vh;
+}
+
+/* .tremor-Card-root {
+  background-color: red;
+} */
+
+/* .tremor-Card-root {
+  background-color: #05050f;
+} */
