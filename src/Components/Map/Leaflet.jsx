@@ -32,9 +32,10 @@ const Leaflet = () => {
           url="https://tiles.stadiamaps.com/tiles/stamen_toner_background/{z}/{x}/{y}{r}.png"
           attribution='Map data: &copy; <a href="http://www.govdata.de/dl-de/by-2-0">dl-de/by-2-0</a>'
         />
-        {data.city.map((city) => {
+        {data.city.map((city, index) => {
           return (
             <CircleMarker
+              key={index}
               center={[city["coordinates"][1], city["coordinates"][0]]}
             />
           );
